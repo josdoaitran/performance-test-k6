@@ -22,6 +22,10 @@ export const options = {
 };
 ```
 
+## Metrics in K6 - Performance test:
+
+https://k6.io/docs/using-k6/metrics/
+
 ## Generate K6 html report:
 
 https://github.com/benc-uk/k6-reporter
