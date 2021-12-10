@@ -7,7 +7,9 @@ Unit test for performance test.
 + Flexible
 + User Friendly
 
-## 
+## Formm / Anatomy of a test
+
+`init code => Setup code => Vu code (Vu code loops over for the duration of the test) => Tear down code`
 
 
 ## Install K6:
