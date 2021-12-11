@@ -65,3 +65,19 @@ default ✓ [======================================] 1 VUs  00m03.8s/10m0s  1/1 
 
 https://github.com/benc-uk/k6-reporter
 
+```
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+````
+
+```
+export function handleSummary(data) {
+  return {
+    "summary.html": htmlReport(data),
+  };
+}
+```
+
+## Recodring Tesing:
+Using K6 recorder: https://chrome.google.com/webstore/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda?hl=en
+
+
