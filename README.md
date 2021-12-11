@@ -78,6 +78,9 @@ export function handleSummary(data) {
 ```
 
 ## Recodring Tesing:
+
 Using K6 recorder: https://chrome.google.com/webstore/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda?hl=en
 
 
+## References:
+https://project-awesome.org/k6io/awesome-k6
