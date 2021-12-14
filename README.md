@@ -60,6 +60,14 @@ default ✓ [======================================] 1 VUs  00m03.8s/10m0s  1/1 
      vus............................: 1     min=1      max=1
      vus_max........................: 1     min=1      max=1
 ```
+## Insecure Skip TLS Verify
+Ref: https://k6.io/docs/using-k6/options/
+
+```
+export const options = {
+  insecureSkipTLSVerify: true,
+};
+```
 
 ## Generate K6 html report:
 
