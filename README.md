@@ -34,6 +34,28 @@ export const options = {
 };
 ```
 
+## Ramp-up:
+https://k6.io/docs/using-k6/scenarios/executors/ramping-vus/
+
+In this example, we'll run a two-stage test, ramping up from 0 to 100 VUs for 5 seconds, and down to 0 VUs over 5 seconds.
+
+```
+export const options = {
+  discardResponseBodies: true,
+  scenarios: {
+    contacts: {
+      executor: 'ramping-vus',
+      startVUs: 0,
+      stages: [
+        { duration: '5s', target: 100 },
+        { duration: '5s', target: 0 },
+      ],
+      gracefulRampDown: '0s',
+    },
+  },
+};
+```
+
 ## Metrics in K6 - Performance test:
 
 https://k6.io/docs/using-k6/metrics/
