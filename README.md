@@ -18,7 +18,14 @@ Unit test for performance test.
 
 + Install K6: https://k6.io/docs/getting-started/installation/
 
+## Run test local:
 
+```
+k6 run test_script.js
+
+# Run with mode dug
+k6 run test_script.js --http-debug
+```
 
 ## Types of test:
 
@@ -111,6 +118,10 @@ https://github.com/IzakMarais/reporter
 ## Recodring Tesing:
 
 Using K6 recorder: https://chrome.google.com/webstore/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda?hl=en
+
+## Postman to K6: 
+
+https://github.com/apideck-libraries/postman-to-k6
 
 
 ## References:
