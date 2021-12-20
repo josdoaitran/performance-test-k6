@@ -3,6 +3,12 @@ Docker for run test with K6
 https://hub.docker.com/r/loadimpact/k6/
 
 
+Run: 
+```
+docker-compose up -d influxdb grafana
+docker-compose run k6 run - </tests/test.js
+```
+
 
 ## References:
 
