@@ -1,4 +1,4 @@
-# performance-test-k6
+# Performance test with k6
 
 Unit test for performance test.
 
@@ -122,6 +122,10 @@ Using K6 recorder: https://chrome.google.com/webstore/detail/k6-browser-recorder
 ## Postman to K6: 
 
 https://github.com/apideck-libraries/postman-to-k6
+
+## K6 with Typescript:
+
+https://github.com/grafana/k6-template-typescript
 
 
 ## References:
