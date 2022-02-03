@@ -127,6 +127,12 @@ https://github.com/apideck-libraries/postman-to-k6
 
 https://github.com/grafana/k6-template-typescript
 
+## Pipeline:
+### Pipeline with Azure:
+Load Testing with Azure DevOps and k6: https://techcommunity.microsoft.com/t5/azure-devops/load-testing-with-azure-devops-and-k6/m-p/2489134
+### Pipeline with AWS CodeBuild: 
+https://k6.io/blog/integrating-k6-with-aws-codebuild/
+
 
 ## References:
 https://project-awesome.org/k6io/awesome-k6
