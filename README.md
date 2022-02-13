@@ -115,6 +115,10 @@ export function handleSummary(data) {
 ```
 https://github.com/IzakMarais/reporter
 
+## K6 with Grafana, influxdb
+https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3
+
+
 ## Recodring Tesing:
 
 Using K6 recorder: https://chrome.google.com/webstore/detail/k6-browser-recorder/phjdhndljphphehjpgbmpocddnnmdbda?hl=en
