@@ -118,6 +118,9 @@ https://github.com/IzakMarais/reporter
 ## K6 with Grafana, influxdb
 https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454edb3a2e3
 
+## K6 with Datadog:
+https://k6.io/docs/results-visualization/datadog/#:~:text=Log%20in%20to%20Datadog.,then%20select%20the%20k6%20integration.
+
 
 ## Recodring Tesing:
 
