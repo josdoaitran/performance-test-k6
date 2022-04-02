@@ -121,6 +121,10 @@ https://medium.com/swlh/beautiful-load-testing-with-k6-and-docker-compose-4454ed
 ## K6 with Datadog:
 https://k6.io/docs/results-visualization/datadog/#:~:text=Log%20in%20to%20Datadog.,then%20select%20the%20k6%20integration.
 
+```
+K6_STATSD_ENABLE_TAGS=true k6 run $SCRIPT --stage $STAGE --out statsd  --system-tags scenario= --tag scenario=$SCENARIO"
+```
+
 
 ## Recodring Tesing:
 
