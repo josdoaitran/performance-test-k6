@@ -1,11 +1,9 @@
 FROM loadimpact/k6
 
 ENV SCRIPT tests/example.js
-ENV Environment local
+ENV Environment dev
 ENV STAGE 5s:2,10s:2,5s:0
-
-COPY tests tests
-COPY tests/reportlib.js reportlib.js
-
+ENV SCENARIO Test_Example_01
+COPY . .
 ENTRYPOINT []
-CMD ["sh", "-c", "k6 run $SCRIPT --stage $STAGE"]
+CMD ["sh", "-c", "K6_STATSD_ENABLE_TAGS=true k6 run $SCRIPT --stage $STAGE --out statsd  --system-tags scenario= --tag scenario=$SCENARIO --tag env=$Environment"]
